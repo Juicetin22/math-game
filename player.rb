@@ -29,4 +29,8 @@ class Player
       @remaining = "#{@score}/3"
     end
   end
+
+  def lost?
+    @score == 0
+  end
 end
